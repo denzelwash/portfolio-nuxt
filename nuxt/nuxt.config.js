@@ -1,48 +1,62 @@
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    title: 'denis-obolevich-website',
-    htmlAttrs: {
-      lang: 'en',
+    // Global page headers: https://go.nuxtjs.dev/config-head
+    head: {
+        title: 'Денис Оболевич &#9733; Портфолио',
+        htmlAttrs: {
+            lang: 'ru',
+        },
+        meta: [
+            { charset: 'utf-8' },
+            {
+                name: 'viewport',
+                content: 'width=device-width, initial-scale=1',
+            },
+            {
+                hid: 'description',
+                name: 'description',
+                content:
+                    'Frontend разработчик, Денис Оболевич. Портфолио. Разработка сайтов, SPA, дизайн, верстка, программирование.',
+            },
+            {
+                hid: 'keywords',
+                name: 'keywords',
+                content:
+                    'HTML5, CSS3, PHP, JavaScript, Jquery, Vue, Nuxt, Git, LESS/SASS/SCSS, Flexbox, Grid, Adaptive.',
+            },
+            { name: 'format-detection', content: 'telephone=no' },
+        ],
+        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' },
+
+    // Global CSS: https://go.nuxtjs.dev/config-css
+    css: ['@/assets/scss/main'],
+
+    // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+    plugins: [],
+
+    // Auto import components: https://go.nuxtjs.dev/config-components
+    components: true,
+
+    // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
+    buildModules: [
+        // https://go.nuxtjs.dev/eslint
+        '@nuxtjs/eslint-module',
+        // https://go.nuxtjs.dev/tailwindcss
+        '@nuxtjs/tailwindcss',
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-  },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+    // Modules: https://go.nuxtjs.dev/config-modules
+    modules: [
+        // https://go.nuxtjs.dev/axios
+        '@nuxtjs/axios',
+    ],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+    // Axios module configuration: https://go.nuxtjs.dev/config-axios
+    axios: {
+        // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
+        baseURL: '/',
+    },
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
-    // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
-  ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-  ],
-
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/',
-  },
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+    // Build Configuration: https://go.nuxtjs.dev/config-build
+    build: {},
 }

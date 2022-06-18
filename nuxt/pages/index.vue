@@ -1,9 +1,5 @@
 <template>
-  <Tutorial />
+    <h1>Главная</h1>
 </template>
 
-<script>
-export default {
-  name: 'IndexPage',
-}
-</script>
+<script></script>
