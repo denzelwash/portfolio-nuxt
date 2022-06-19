@@ -15,9 +15,10 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         screens: {
-            xl: { max: '1211px' },
-            lg: { max: '1023px' },
-            md: { max: '767px' },
+            xxl: { max: '1429px' },
+            xl: { max: '1229px' },
+            lg: { max: '1019px' },
+            md: { max: '789px' },
             sm: { max: '575px' },
         },
         fontFamily: {
@@ -40,13 +41,16 @@ module.exports = {
             addComponents({
                 '.container': {
                     margin: '0 auto',
-                    padding: '0 16px',
-                    maxWidth: '1212px',
+                    padding: '0 15px',
+                    maxWidth: '1430px',
+                    '@screen xxl': {
+                        maxWidth: '1230px',
+                    },
                     '@screen xl': {
-                        maxWidth: '1024px',
+                        maxWidth: '1020px',
                     },
                     '@screen lg': {
-                        maxWidth: '768px',
+                        maxWidth: '790px',
                     },
                     '@screen md': {
                         maxWidth: '576px',

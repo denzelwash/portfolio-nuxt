@@ -1,7 +1,7 @@
 export default {
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'Денис Оболевич &#9733; Портфолио',
+        title: 'Денис Оболевич ★ Портфолио',
         htmlAttrs: {
             lang: 'ru',
         },
@@ -25,7 +25,7 @@ export default {
             },
             { name: 'format-detection', content: 'telephone=no' },
         ],
-        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css

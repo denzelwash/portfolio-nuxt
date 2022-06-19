@@ -1,10 +1,10 @@
 <template>
-    <header class="page-header">
+    <header class="page-header shadow relative z-10">
         <div class="container">
             <div class="flex justify-between items-center h-20">
                 <div class="logo">
                     <p>Денис оболевич</p>
-                    <span>Портфолио</span>
+                    <span>frontend developer</span>
                 </div>
                 <div class="flex align-center">
                     <a

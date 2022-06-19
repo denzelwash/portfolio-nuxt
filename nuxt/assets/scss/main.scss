@@ -1,1 +1,10 @@
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
+.page-main {
+    min-height: calc(100vh - 80px - 56px);
+    background-color: #ececec;
+}
