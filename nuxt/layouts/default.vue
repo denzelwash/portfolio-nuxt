@@ -3,6 +3,7 @@
         <TheHeader />
         <main class="page-main">
             <div class="container">
+                <AppNav />
                 <Nuxt />
             </div>
         </main>

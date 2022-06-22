@@ -1,5 +1,5 @@
 <template>
-    <footer class="page-footer shadow relative z-10">
+    <footer class="page-footer shadow-footer relative z-10">
         <div class="container">
             <div class="flex justify-between items-center h-14">
                 <span>Copyright 2022 &#128400; denisobolevich.ru</span>
