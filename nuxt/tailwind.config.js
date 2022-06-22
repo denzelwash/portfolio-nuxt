@@ -25,12 +25,6 @@ module.exports = {
             fontFamily: {
                 sans: ['Montserrat', 'Arial', ...defaultTheme.fontFamily.sans],
             },
-            colors: {
-                gray: {
-                    500: '#f0f0f0',
-                    600: '#6e6e6e',
-                },
-            },
             boxShadow: {
                 footer: '0 -1px 3px 0 rgb(0 0 0 / 0.1), 0 -1px 2px -1px rgb(0 0 0 / 0.1)',
             },

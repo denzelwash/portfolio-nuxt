@@ -1,9 +1,8 @@
 <template>
     <div class="page-wrapper">
         <TheHeader />
-        <main class="page-main">
+        <main class="page-main py-20">
             <div class="container">
-                <AppNav />
                 <Nuxt />
             </div>
         </main>

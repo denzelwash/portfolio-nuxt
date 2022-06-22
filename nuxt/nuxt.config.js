@@ -57,6 +57,11 @@ export default {
         baseURL: '/',
     },
 
+    router: {
+        linkActiveClass: 'active',
+        linkExactActiveClass: 'exact-active',
+    },
+
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {},
 }

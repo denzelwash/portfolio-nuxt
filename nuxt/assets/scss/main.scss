@@ -22,17 +22,6 @@
     src: url('~assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
 }
 
-.page-wrapper {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.page-main {
-    min-height: calc(100vh - 80px - 56px);
-    background-color: #ececec;
-}
-
 h1,
 h2,
 h3,
@@ -40,4 +29,36 @@ h4,
 h5,
 h6 {
     @apply font-semibold;
+}
+
+body {
+    min-width: 320px;
+    color: #222222;
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+// //////////////////////
+
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header {
+    nav {
+        a.active {
+            @apply text-yellow-500;
+        }
+    }
+}
+
+.page-main {
+    min-height: calc(100vh - 80px - 56px);
+    background-color: #fff;
 }
