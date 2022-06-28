@@ -64,7 +64,7 @@ export default {
             menu: [
                 {
                     name: 'Портфолио',
-                    url: '/portfolio',
+                    url: '/',
                 },
                 {
                     name: 'Работа',

@@ -48,11 +48,13 @@ img {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    @apply bg-white;
 }
 
 .page-header {
+    @apply bg-white;
     nav {
-        a.active {
+        a.exact-active {
             @apply text-yellow-500;
         }
     }
@@ -60,5 +62,9 @@ img {
 
 .page-main {
     min-height: calc(100vh - 80px - 56px);
-    background-color: #fff;
+    @apply bg-white;
+}
+
+.page-footer {
+    @apply bg-white;
 }

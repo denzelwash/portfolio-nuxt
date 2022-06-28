@@ -1,4 +1,5 @@
 export default {
+    ssr: false,
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
         title: 'Денис Оболевич ★ Портфолио',
@@ -60,6 +61,7 @@ export default {
     router: {
         linkActiveClass: 'active',
         linkExactActiveClass: 'exact-active',
+        middleware: ['routerBeforeEach'],
     },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build

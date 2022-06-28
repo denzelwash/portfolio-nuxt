@@ -1,5 +1,7 @@
 <template>
-    <h1>Главная</h1>
+    <h1>Портфолио</h1>
 </template>
 
 <script></script>
+
+<style></style>
