@@ -1,5 +1,4 @@
 export default {
-    ssr: false,
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
         title: 'Денис Оболевич ★ Портфолио',
@@ -55,7 +54,7 @@ export default {
     // Axios module configuration: https://go.nuxtjs.dev/config-axios
     axios: {
         // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-        baseURL: '/',
+        baseURL: 'http://denisobolevich/api/',
     },
 
     router: {
@@ -66,4 +65,7 @@ export default {
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {},
+    env: {
+        test: 'test',
+    },
 }
