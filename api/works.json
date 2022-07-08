@@ -144,7 +144,7 @@
     "rip": false
   },
   {
-    "id": 16,
+    "id": 17,
     "name": "Fingers",
     "url": "http://telegraf24.media/",
     "type": ["code", "cms"],
@@ -153,7 +153,7 @@
     "rip": true
   },
   {
-    "id": 16,
+    "id": 18,
     "name": "Сзхт",
     "url": "http://szht.ru/",
     "type": ["code", "cms"],
@@ -162,7 +162,7 @@
     "rip": false
   },
   {
-    "id": 17,
+    "id": 19,
     "name": "Тестовое задание",
     "url": "https://denisobolevich.ru/kelnik",
     "type": ["trash"],
@@ -171,7 +171,7 @@
     "rip": false
   },
   {
-    "id": 18,
+    "id": 20,
     "name": "Academfest",
     "url": "https://academfest.com",
     "type": ["code", "cms"],
@@ -180,7 +180,7 @@
     "rip": false
   },
   {
-    "id": 19,
+    "id": 21,
     "name": "Мега сервис",
     "url": "http://megaservice-spb.ru/",
     "type": ["trash"],
@@ -189,7 +189,7 @@
     "rip": false
   },
   {
-    "id": 20,
+    "id": 22,
     "name": "Кексобукинг",
     "url": "/keksobooking",
     "type": ["trash"],

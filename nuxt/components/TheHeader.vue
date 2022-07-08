@@ -3,10 +3,10 @@
         <div class="container">
             <div class="grid grid-flow-col justify-between items-center h-20">
                 <NuxtLink to="/" class="block logo">
-                    <h1 class="text-[22px]">Денис Оболевич</h1>
-                    <h2 class="text-gray-600 font-normal">
+                    <strong class="text-[22px] block">Денис Оболевич</strong>
+                    <span class="text-gray-600 font-normal">
                         frontend developer
-                    </h2>
+                    </span>
                 </NuxtLink>
                 <nav class="block">
                     <ul class="flex justify-center">
