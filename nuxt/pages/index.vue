@@ -44,7 +44,7 @@
             </li>
         </ul>
         <div class="grid grid-cols-4">
-            <div v-for="work in works" :key="work.title" class="portfolio-item" >
+            <div v-for="work in works" :key="work.id" class="portfolio-item">
                 {{ work.id }}
             </div>
         </div>
@@ -53,16 +53,15 @@
 
 <script>
 export default {
-        async asyncData({$axios}) {
-        const res = await $axios.get('works.json')
-        return {works: res.data}
+    async asyncData({ $axios }) {
+        const res = await $axios.get('/api/works.json')
+        return { works: res.data }
     },
     data() {
         return {
             works: [],
         }
     },
-
 }
 </script>
 
