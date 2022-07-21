@@ -43,16 +43,17 @@
                 >
             </li>
         </ul>
-        <div class="grid grid-cols-4">
-            <div v-for="work in works" :key="work.id" class="portfolio-item">
-                {{ work.id }}
-            </div>
+        <div class="grid grid-cols-5 gap-[10px]">
+            <AppCard v-for="work in works" :work="work" :key="work.id" />
         </div>
     </div>
 </template>
 
 <script>
+import AppCard from '@/components/AppCard'
+
 export default {
+    components: { AppCard },
     async asyncData({ $axios }) {
         const res = await $axios.get('/api/works.json')
         return { works: res.data }
