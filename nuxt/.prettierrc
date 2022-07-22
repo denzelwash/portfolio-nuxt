@@ -1,7 +1,7 @@
 {
-    "semi": false,
-    "singleQuote": true,
-    "tab-width": 4,
-    "indent_size": 4,
-    "print-width": 240
+  "semi": false,
+  "singleQuote": true,
+  "tab-width": 2,
+  "indent_size": 2,
+  "print-width": 160
 }

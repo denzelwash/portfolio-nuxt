@@ -1,25 +1,25 @@
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('~assets/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: url('~assets/fonts/Montserrat-Medium.ttf') format('truetype');
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat-Medium.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url('~assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
 }
 
 h1,
@@ -28,45 +28,47 @@ h3,
 h4,
 h5,
 h6 {
-    @apply font-semibold;
+  @apply font-semibold;
 }
 
 body {
-    min-width: 320px;
-    color: #222222;
-    background-color: #fff;
+  min-width: 320px;
+  color: #222222;
+  background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 // //////////////////////
 
 .page-wrapper {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    @apply bg-white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  @apply bg-white;
 }
 
 .page-header {
-    @apply bg-white;
-    nav {
-        a.exact-active {
-            @apply text-yellow-500;
-        }
+  @apply bg-white;
+  nav {
+    a.exact-active {
+      @apply text-yellow-500;
     }
+  }
 }
 
 .page-main {
-    min-height: calc(100vh - 80px - 56px);
-    @apply bg-white;
+  min-height: calc(100vh - 80px - 56px);
+  @apply bg-white;
 }
 
 .page-footer {
-    @apply bg-white;
+  @apply bg-white;
 }
 
 @import './blocks/portfolio.scss';
