@@ -1,4 +1,12 @@
 .portfolio-item {
+  &:hover {
+    .portfolio-item__content {
+      display: flex;
+    }
+  }
+  &__content {
+    display: none;
+  }
   ul {
     margin: 0;
     padding: 0;

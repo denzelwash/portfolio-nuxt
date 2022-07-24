@@ -43,12 +43,12 @@ export default {
           active: false,
         },
         cms: {
-          text: 'CMS',
+          text: 'Cms',
           type: 'cms',
           active: false,
         },
         vue: {
-          text: 'VUE',
+          text: 'Vue',
           type: 'vue',
           active: false,
         },
