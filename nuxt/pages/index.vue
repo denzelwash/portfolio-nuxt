@@ -2,44 +2,13 @@
   <div class="portfolio">
     <h1 class="text-2xl mb-8">Портфолио</h1>
     <ul class="grid grid-flow-col justify-start mb-8">
-      <li class="mr-20">
-        <a
-          href=""
-          class="text-xl font-medium hover:text-amber-500 duration-300 active"
-          @click.prevent="sort('all')"
-          >Все работы</a
-        >
-      </li>
-      <li class="mr-20">
+      <li class="mr-20" v-for="item in worksMenu" :key="item.text">
         <a
           href=""
           class="text-xl font-medium hover:text-amber-500 duration-300"
-          @click.prevent="sort('code')"
-          >Верстка</a
-        >
-      </li>
-      <li class="mr-20">
-        <a
-          href=""
-          class="text-xl font-medium hover:text-amber-500 duration-300"
-          @click.prevent="sort('cms')"
-          >Cms</a
-        >
-      </li>
-      <li class="mr-20">
-        <a
-          href=""
-          @click.prevent="sort('vue')"
-          class="text-xl font-medium hover:text-amber-500 duration-300"
-          >Vue</a
-        >
-      </li>
-      <li>
-        <a
-          href=""
-          class="text-xl font-medium hover:text-amber-500 duration-300"
-          @click.prevent="sort('trash')"
-          >Trash</a
+          :class="{ active: item.active }"
+          @click.prevent="menuItemClick(item.type)"
+          >{{ item.text }}</a
         >
       </li>
     </ul>
@@ -62,22 +31,49 @@ export default {
     return {
       works: [],
       tempWorks: [],
+      worksMenu: {
+        all: {
+          text: 'Все работы',
+          type: 'all',
+          active: true,
+        },
+        code: {
+          text: 'Верстка',
+          type: 'code',
+          active: false,
+        },
+        cms: {
+          text: 'CMS',
+          type: 'cms',
+          active: false,
+        },
+        vue: {
+          text: 'VUE',
+          type: 'vue',
+          active: false,
+        },
+        trash: {
+          text: 'Trash',
+          type: 'trash',
+          active: false,
+        },
+      },
     }
   },
   methods: {
+    menuItemClick(type) {
+      for (const menu in this.worksMenu) {
+        this.worksMenu[menu].active = false
+      }
+      this.sort(type)
+      this.worksMenu[type].active = true
+    },
     sort(type) {
-      console.log('click:', type)
       if (type === 'all') {
         this.tempWorks = this.works
         return
       }
-      this.tempWorks = this.works.filter((work) => {
-        if (work.type.includes(type)) {
-          return true
-        }
-        return false
-      })
-      console.log(this.tempWorks)
+      this.tempWorks = this.works.filter((work) => work.type.includes(type))
     },
   },
 }
