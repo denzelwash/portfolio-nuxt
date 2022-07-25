@@ -72,15 +72,6 @@
     "rip": false
   },
   {
-    "id": 9,
-    "name": "Medium",
-    "url": "https://denisobolevich.ru/vuemedium/",
-    "type": ["vue"],
-    "list": ["Учебный проект", "Мини копия medium.com на Vue", "Desktop only"],
-    "img": "medium.jpg",
-    "rip": false
-  },
-  {
     "id": 10,
     "name": "Природа шоп",
     "url": "https://www.prirodashop.ru/",
