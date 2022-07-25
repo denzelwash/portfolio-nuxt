@@ -1,5 +1,5 @@
 <template>
-  <div class="portfolio-item active aspect-w-1 aspect-h-1">
+  <div class="portfolio-item w-1/4 active aspect-h-1">
     <img :src="require(`~/assets/img/works/${work.img}`)" />
     <div
       class="portfolio-item__content bg-gray-600 bg-opacity-90 p-5 text-white flex flex-col items-start"

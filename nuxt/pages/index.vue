@@ -12,25 +12,31 @@
         >
       </li>
     </ul>
-    <div v-if="works.length" class="grid grid-cols-5 gap-[10px]">
-      <AppCard v-for="work in tempWorks" :work="work" :key="work.id" />
+    <div v-if="works.length" ref="grid" class="">
+      <AppCard
+        v-for="work in works"
+        :work="work"
+        :key="work.id"
+        :data-groups="JSON.stringify(work.type)"
+      />
     </div>
   </div>
 </template>
 
 <script>
+import Shuffle from 'shufflejs'
 import AppCard from '@/components/AppCard'
 
 export default {
   components: { AppCard },
   async asyncData({ $axios }) {
     const res = await $axios.get('/api/works.json')
-    return { works: res.data, tempWorks: res.data }
+    return { works: res.data }
   },
   data() {
     return {
       works: [],
-      tempWorks: [],
+      shuffleInstance: null,
       worksMenu: {
         all: {
           text: 'Все работы',
@@ -60,20 +66,23 @@ export default {
       },
     }
   },
+  mounted() {
+    const element = this.$refs.grid
+    const sizer = element.querySelector('.portfolio-item')
+    // eslint-disable-next-line no-unused-vars
+    this.shuffleInstance = new Shuffle(element, {
+      itemSelector: '.portfolio-item',
+      sizer,
+      speed: 450,
+    })
+  },
   methods: {
     menuItemClick(type) {
       for (const menu in this.worksMenu) {
         this.worksMenu[menu].active = false
       }
-      this.sort(type)
       this.worksMenu[type].active = true
-    },
-    sort(type) {
-      if (type === 'all') {
-        this.tempWorks = this.works
-        return
-      }
-      this.tempWorks = this.works.filter((work) => work.type.includes(type))
+      this.shuffleInstance.filter(type)
     },
   },
 }
