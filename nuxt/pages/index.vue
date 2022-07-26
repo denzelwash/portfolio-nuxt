@@ -12,7 +12,7 @@
         >
       </li>
     </ul>
-    <div v-if="works.length" ref="grid" class="">
+    <div v-if="works.length" ref="grid" class="flex flex-wrap gap-4 -mx-3">
       <AppCard
         v-for="work in works"
         :work="work"
@@ -68,12 +68,10 @@ export default {
   },
   mounted() {
     const element = this.$refs.grid
-    const sizer = element.querySelector('.portfolio-item')
     // eslint-disable-next-line no-unused-vars
     this.shuffleInstance = new Shuffle(element, {
       itemSelector: '.portfolio-item',
-      sizer,
-      speed: 450,
+      speed: 600,
     })
   },
   methods: {
