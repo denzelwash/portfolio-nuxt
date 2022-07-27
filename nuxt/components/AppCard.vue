@@ -12,7 +12,7 @@
           {{ work.name }}
         </h4>
         <ul>
-          <li v-for="item in work.list" :key="item" class="text-sm mb-1">
+          <li v-for="item in work.list" :key="item" class="mb-1">
             {{ item }}
           </li>
         </ul>
@@ -28,10 +28,10 @@
               height="12"
               class="mr-2"
             />
-            <span class="text-sm">Перейти</span>
+            <span class="">Перейти</span>
           </a>
-          <span v-else class="text-sm">Rip</span>
-          <span class="text-sm">{{ work.year || 2019 }}</span>
+          <span v-else class="">Rip</span>
+          <span class="">{{ work.year || 2019 }}</span>
         </div>
       </div>
     </div>
