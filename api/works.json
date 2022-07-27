@@ -6,7 +6,8 @@
     "type": ["code"],
     "list": ["Верстка"],
     "img": "itmodul.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2021
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "type": ["code"],
     "list": ["Верстка"],
     "img": "volga.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2021
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "type": ["code", "vue"],
     "list": ["Верстка", "Vue"],
     "img": "tentbox.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2021
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "type": ["vue"],
     "list": ["Vue"],
     "img": "cards.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2021
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "type": ["code", "cms"],
     "list": ["Верстка", "Установка на WordPress"],
     "img": "sanline.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2020
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "type": ["code"],
     "list": ["Верстка"],
     "img": "baby.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2019
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "type": ["code"],
     "list": ["Верстка"],
     "img": "bsk.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2020
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "type": ["vue"],
     "list": ["Учебный проект", "Мини копия medium.com на Vue", "Desktop only"],
     "img": "medium.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2020
   },
   {
     "id": 10,
@@ -78,7 +86,8 @@
     "type": ["trash"],
     "list": ["Адаптация под мобильные устройства"],
     "img": "priroda.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2018
   },
   {
     "id": 11,
@@ -87,7 +96,8 @@
     "type": ["vue"],
     "list": ["Учебный проект", "Vue + Firebase", "Desktop only"],
     "img": "minin.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2020
   },
   {
     "id": 12,
@@ -96,7 +106,8 @@
     "type": ["code", "cms"],
     "list": ["Верстка", "Установка на MODX"],
     "img": "ats.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2018
   },
   {
     "id": 13,
@@ -105,7 +116,8 @@
     "type": ["code", "cms"],
     "list": ["Верстка", "Установка на WordPress"],
     "img": "cik.jpg",
-    "rip": true
+    "rip": true,
+    "year": 2018
   },
   {
     "id": 14,
@@ -114,7 +126,8 @@
     "type": ["code", "cms"],
     "list": ["Верстка", "Установка на MODX"],
     "img": "akces.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2019
   },
   {
     "id": 15,
@@ -123,7 +136,8 @@
     "type": ["trash"],
     "list": ["Адаптация под мобильные устройства"],
     "img": "unix.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2018
   },
   {
     "id": 16,
@@ -132,7 +146,8 @@
     "type": ["code"],
     "list": ["Верстка"],
     "img": "telegraf.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2019
   },
   {
     "id": 17,
@@ -141,7 +156,8 @@
     "type": ["code", "cms"],
     "list": ["Верстка", "Установка на WordPress"],
     "img": "fingers.jpg",
-    "rip": true
+    "rip": true,
+    "year": 2018
   },
   {
     "id": 18,
@@ -150,7 +166,8 @@
     "type": ["code", "cms"],
     "list": ["Верстка", "Установка на WordPress"],
     "img": "szht.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2019
   },
   {
     "id": 19,
@@ -159,7 +176,8 @@
     "type": ["trash"],
     "list": ["Верстка", "JS"],
     "img": "kelnik.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2019
   },
   {
     "id": 20,
@@ -168,7 +186,8 @@
     "type": ["code", "cms"],
     "list": ["Верстка", "Установка на MODX"],
     "img": "academ.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2019
   },
   {
     "id": 21,
@@ -177,7 +196,8 @@
     "type": ["trash"],
     "list": ["Адаптация под мобильные устройства", "Калькуляторы"],
     "img": "mega.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2018
   },
   {
     "id": 22,
@@ -186,6 +206,7 @@
     "type": ["trash"],
     "list": ["Учебный проект на курсе по js от HTML Academy"],
     "img": "booking.jpg",
-    "rip": false
+    "rip": false,
+    "year": 2018
   }
 ]
