@@ -1,9 +1,9 @@
 <template>
   <div class="portfolio-item w-1/5 p-3 drop-shadow">
-    <div class="aspect-h-1 aspect-w-1 relative">
+    <div class="portfolio-item__wr aspect-h-1 aspect-w-1 relative">
       <img :src="require(`~/assets/img/works/${work.img}`)" />
       <div
-        class="portfolio-item__content bg-gray-500 bg-opacity-90 p-5 text-white flex flex-col items-start"
+        class="portfolio-item__content animation bg-gray-600 bg-opacity-95 p-5 text-white flex flex-col items-start"
         :class="{ 'work-rip': work.rip }"
       >
         <h4
@@ -20,7 +20,7 @@
           <a
             v-if="!work.rip"
             :href="work.url"
-            class="underline flex items-center hover:no-underline"
+            class="portfolio-item__link underline flex items-center hover:no-underline"
           >
             <img
               src="~assets/img/svg/external.svg"
