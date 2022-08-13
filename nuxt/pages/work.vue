@@ -1,5 +1,5 @@
 <template>
-    <h1>Опыт работы</h1>
+  <h1 class="text-2xl mb-8">Опыт работы</h1>
 </template>
 
 <script>
