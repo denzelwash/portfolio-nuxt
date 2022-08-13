@@ -1,6 +1,6 @@
 <template>
   <div class="portfolio">
-    <h1 class="text-2xl mb-8">Портфолио</h1>
+    <h1 class="text-2xl mb-8 page-title">Портфолио</h1>
     <ul class="grid grid-flow-col justify-start mb-8">
       <li class="mr-20" v-for="item in worksMenu" :key="item.text">
         <a

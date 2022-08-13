@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-2xl mb-8">Навыки</h1>
+  <h1 class="text-2xl page-title mb-8">Навыки</h1>
 </template>
 
 <script>

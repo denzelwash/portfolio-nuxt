@@ -1,0 +1,40 @@
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  @apply bg-white;
+}
+
+.page-header {
+  @apply bg-white;
+  nav {
+    a.exact-active {
+      @apply text-yellow-500;
+    }
+  }
+}
+
+.page-main {
+  min-height: calc(100vh - 80px - 56px);
+  @apply bg-white;
+}
+
+.page-footer {
+  @apply bg-white;
+}
+
+.page-title {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  &::before {
+    position: absolute;
+    content: '';
+    width: 82%;
+    height: 8px;
+    bottom: 4px;
+    left: 9%;
+    background-color: #f7b546;
+    z-index: -1;
+  }
+}
