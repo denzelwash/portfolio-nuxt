@@ -3,7 +3,7 @@
     <div class="portfolio-item__wr aspect-h-1 aspect-w-1 relative">
       <img :src="require(`~/assets/img/works/${work.img}`)" />
       <div
-        class="portfolio-item__content animation bg-gray-600 bg-opacity-95 p-5 text-white flex flex-col items-start"
+        class="portfolio-item__content bg-gray-600 bg-opacity-95 p-5 text-white flex flex-col items-start"
         :class="{ 'work-rip': work.rip }"
       >
         <h4
