@@ -3,7 +3,9 @@
     <div class="container">
       <div class="grid grid-flow-col justify-between items-center h-20">
         <NuxtLink to="/" class="block logo">
-          <strong class="text-[22px] block">Денис Оболевич</strong>
+          <strong class="text-[22px] leading-[22px] block"
+            >Денис Оболевич</strong
+          >
           <span class="text-gray-600 font-normal"> frontend developer </span>
         </NuxtLink>
         <nav class="block">
