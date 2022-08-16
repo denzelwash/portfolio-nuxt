@@ -1,11 +1,16 @@
 <template>
   <div class="portfolio">
-    <h1 class="text-2xl mb-8 page-title">Портфолио</h1>
-    <ul class="grid grid-flow-col justify-start mb-8">
-      <li class="mr-20" v-for="item in worksMenu" :key="item.text">
+    <h1 class="text-2xl sm:text-xl mb-8 sm:mb-6 page-title">Портфолио</h1>
+    <ul class="flex flex-wrap mb-4 sm:mb-0">
+      <li
+        v-for="(item, name, i) in worksMenu"
+        :key="item.text"
+        class="mb-3"
+        :class="{ 'mr-20 lg:mr-10': i < worksMenuLength - 1 }"
+      >
         <a
           href=""
-          class="text-xl font-medium hover:text-amber-500 duration-300"
+          class="text-xl sm:text-lg font-medium hover:text-amber-500 duration-300"
           :class="{ active: item.active }"
           @click.prevent="menuItemClick(item.type)"
           >{{ item.text }}</a
@@ -65,6 +70,11 @@ export default {
         },
       },
     }
+  },
+  computed: {
+    worksMenuLength() {
+      return Object.keys(this.worksMenu).length
+    },
   },
   mounted() {
     const element = this.$refs.grid

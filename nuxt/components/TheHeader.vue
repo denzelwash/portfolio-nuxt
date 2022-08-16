@@ -1,25 +1,30 @@
 <template>
   <header class="page-header shadow relative z-10">
     <div class="container">
-      <div class="grid grid-flow-col justify-between items-center h-20">
-        <NuxtLink to="/" class="block logo">
-          <strong class="text-[22px] leading-[22px] block"
+      <div class="page-header__wr">
+        <NuxtLink to="/" class="page-header__logo block logo">
+          <strong
+            class="text-[22px] sm:text-xl leading-[22px] sm:leading-5 block"
             >Денис Оболевич</strong
           >
-          <span class="text-gray-600 font-normal"> frontend developer </span>
+          <span class="text-gray-600 sm:text-sm font-normal">
+            frontend developer
+          </span>
         </NuxtLink>
-        <nav class="block">
-          <ul class="flex justify-center">
-            <li v-for="item in menu" :key="item.name" class="mx-8">
+        <nav class="page-header__nav block">
+          <ul class="flex justify-center lg:justify-between">
+            <li v-for="item in menu" :key="item.name" class="mx-8 lg:mx-0">
               <NuxtLink
                 :to="item.url"
-                class="text-gray-600 hover:text-black duration-300 font-medium"
+                class="text-gray-600 hover:text-black duration-300 font-medium sm:text-sm"
                 >{{ item.name }}</NuxtLink
               >
             </li>
           </ul>
         </nav>
-        <div class="flex align-center justify-end w-[200px] w-max-full">
+        <div
+          class="page-header__contacts flex align-center justify-end w-[200px] lg:w-auto w-max-full"
+        >
           <a
             class="w-[36px] h-[36px] flex items-center justify-center ml-2 bg-gray-100 hover:bg-yellow-300 duration-300"
             href="https://t.me/DenzelWash33"
