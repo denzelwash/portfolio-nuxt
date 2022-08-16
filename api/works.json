@@ -34,7 +34,7 @@
     "name": "Игра Найди пару",
     "url": "https://denisobolevich.ru/vuetwocards/",
     "type": ["vue"],
-    "list": ["Vue"],
+    "list": ["Vue + PHP"],
     "img": "cards.jpg",
     "rip": false,
     "year": 2021
