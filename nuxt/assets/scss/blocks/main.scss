@@ -11,6 +11,10 @@
     a.exact-active {
       @apply text-yellow-500;
     }
+    a.disabled {
+      pointer-events: none;
+      opacity: 0.5;
+    }
   }
   &__wr {
     position: relative;

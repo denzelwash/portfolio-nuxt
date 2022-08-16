@@ -17,6 +17,7 @@
               <NuxtLink
                 :to="item.url"
                 class="text-gray-600 hover:text-black duration-300 font-medium sm:text-sm"
+                :class="{ disabled: item.disabled }"
                 >{{ item.name }}</NuxtLink
               >
             </li>
@@ -66,14 +67,17 @@ export default {
         {
           name: 'Портфолио',
           url: '/',
+          disabled: false,
         },
         {
           name: 'Навыки',
           url: '/skills',
+          disabled: true,
         },
         {
           name: 'Опыт работы',
           url: '/work',
+          disabled: true,
         },
       ],
     }
