@@ -51,6 +51,7 @@
   padding: 6.25rem 0;
   @screen sm {
     padding-bottom: 5rem;
+    min-height: calc(100vh - 70px - 56px);
   }
 }
 

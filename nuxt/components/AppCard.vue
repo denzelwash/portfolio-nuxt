@@ -24,6 +24,7 @@
             :href="work.url"
             class="portfolio-item__link underline flex items-center hover:no-underline"
             target="_blank"
+            rel="nofollow"
           >
             <img
               src="~assets/img/svg/external.svg"

@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio">
-    <h1 class="text-2xl sm:text-xl mb-8 sm:mb-6 page-title">Портфолио</h1>
-    <ul class="flex flex-wrap mb-4 sm:mb-0">
+    <h1 class="text-2xl sm:text-xl mb-10 sm:mb-8 page-title">Портфолио</h1>
+    <ul class="flex flex-wrap mb-2 sm:mb-0">
       <li
         v-for="(item, name, i) in worksMenu"
         :key="item.text"

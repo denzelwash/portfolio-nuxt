@@ -1,6 +1,6 @@
 <template>
   <div class="skills">
-    <h1 class="text-2xl sm:text-xl mb-8 sm:mb-6 page-title">Навыки</h1>
+    <h1 class="text-2xl sm:text-xl mb-10 sm:mb-8 page-title">Навыки</h1>
     <div class="mb-6">
       <h2 class="text-lg mb-1">Design</h2>
       <p class="">Photoshop, Figma</p>
