@@ -32,7 +32,7 @@
   {
     "id": 4,
     "name": "Игра Найди пару",
-    "url": "https://denisobolevich.ru/works/vuetwocards/",
+    "url": "http://works.denisobolevich.ru/vuetwocards/",
     "type": ["vue"],
     "list": ["Vue + PHP"],
     "img": "cards.jpg",
@@ -72,7 +72,7 @@
   {
     "id": 8,
     "name": "Medium",
-    "url": "https://denisobolevich.ru/works/vuemedium/",
+    "url": "http://works.denisobolevich.ru/vuemedium/",
     "type": ["vue"],
     "list": ["Учебный проект", "Мини копия medium.com на Vue", "Desktop only"],
     "img": "medium.jpg",
@@ -172,7 +172,7 @@
   {
     "id": 19,
     "name": "Тестовое задание",
-    "url": "https://denisobolevich.ru/works/kelnik",
+    "url": "http://works.denisobolevich.ru/kelnik",
     "type": ["trash"],
     "list": ["Верстка", "JS"],
     "img": "kelnik.jpg",
@@ -202,7 +202,7 @@
   {
     "id": 22,
     "name": "Кексобукинг",
-    "url": "https://denisobolevich.ru/works/keksobooking",
+    "url": "http://works.denisobolevich.ru/keksobooking",
     "type": ["trash"],
     "list": ["Учебный проект на курсе по js от HTML Academy"],
     "img": "booking.jpg",
