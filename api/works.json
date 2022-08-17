@@ -92,7 +92,7 @@
   {
     "id": 11,
     "name": "Журнал расходов",
-    "url": "https://denisobolevich.ru/works/vuejournal/",
+    "url": "http://works.denisobolevich.ru/vuejournal/",
     "type": ["vue"],
     "list": ["Учебный проект", "Vue + Firebase", "Desktop only"],
     "img": "minin.jpg",
