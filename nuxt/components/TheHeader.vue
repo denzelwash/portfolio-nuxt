@@ -4,7 +4,7 @@
       <div class="page-header__wr">
         <NuxtLink to="/" class="page-header__logo block logo">
           <strong
-            class="text-[22px] sm:text-xl leading-[22px] sm:leading-5 block"
+            class="text-[22px] sm:text-xl leading-[26px] sm:leading-5 block"
             >Денис Оболевич</strong
           >
           <span class="text-gray-600 sm:text-sm font-normal">
@@ -72,12 +72,12 @@ export default {
         {
           name: 'Навыки',
           url: '/skills',
-          disabled: true,
+          disabled: false,
         },
         {
           name: 'Опыт работы',
           url: '/work',
-          disabled: true,
+          disabled: false,
         },
       ],
     }

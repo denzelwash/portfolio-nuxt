@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-2xl page-title mb-8">Опыт работы</h1>
+  <h1 class="text-2xl sm:text-xl mb-8 sm:mb-6 page-title">Опыт работы</h1>
 </template>
 
 <script>

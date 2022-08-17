@@ -65,10 +65,11 @@
   &::before {
     position: absolute;
     content: '';
-    width: 82%;
+    width: 75%;
     height: 8px;
     bottom: 4px;
-    left: 9%;
+    left: 50%;
+    transform: translateX(-50%);
     @apply bg-amber-300;
     z-index: -1;
   }
