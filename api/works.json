@@ -32,7 +32,7 @@
   {
     "id": 4,
     "name": "Игра Найди пару",
-    "url": "https://denisobolevich.ru/vuetwocards/",
+    "url": "https://denisobolevich.ru/works/vuetwocards/",
     "type": ["vue"],
     "list": ["Vue + PHP"],
     "img": "cards.jpg",
@@ -72,7 +72,7 @@
   {
     "id": 8,
     "name": "Medium",
-    "url": "https://denisobolevich.ru/vuemedium/",
+    "url": "https://denisobolevich.ru/works/vuemedium/",
     "type": ["vue"],
     "list": ["Учебный проект", "Мини копия medium.com на Vue", "Desktop only"],
     "img": "medium.jpg",
@@ -92,7 +92,7 @@
   {
     "id": 11,
     "name": "Журнал расходов",
-    "url": "https://denisobolevich.ru/vuejournal/",
+    "url": "https://denisobolevich.ru/works/vuejournal/",
     "type": ["vue"],
     "list": ["Учебный проект", "Vue + Firebase", "Desktop only"],
     "img": "minin.jpg",
@@ -172,7 +172,7 @@
   {
     "id": 19,
     "name": "Тестовое задание",
-    "url": "https://denisobolevich.ru/kelnik",
+    "url": "https://denisobolevich.ru/works/kelnik",
     "type": ["trash"],
     "list": ["Верстка", "JS"],
     "img": "kelnik.jpg",
@@ -202,7 +202,7 @@
   {
     "id": 22,
     "name": "Кексобукинг",
-    "url": "/keksobooking",
+    "url": "https://denisobolevich.ru/works/keksobooking",
     "type": ["trash"],
     "list": ["Учебный проект на курсе по js от HTML Academy"],
     "img": "booking.jpg",

@@ -35,8 +35,12 @@ import AppCard from '@/components/AppCard'
 export default {
   components: { AppCard },
   async asyncData({ $axios }) {
-    const res = await $axios.get('/api/works.json')
-    return { works: res.data }
+    try {
+      const res = await $axios.get('/works.json')
+      return { works: res.data }
+    } catch (e) {
+      console.log(e)
+    }
   },
   data() {
     return {
