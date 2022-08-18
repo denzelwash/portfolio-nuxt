@@ -46,12 +46,12 @@
 }
 
 .page-main {
-  min-height: calc(100vh - 80px - 56px);
+  min-height: calc(var(--vh, 1vh) * 100 - 80px - 56px);
   @apply bg-white;
-  padding: 6.25rem 0;
+  padding: 6.25rem 0 3rem;
   @screen sm {
-    padding-bottom: 5rem;
-    min-height: calc(100vh - 70px - 80px);
+    padding-bottom: 2.5rem;
+    min-height: calc(var(--vh, 1vh) * 100 - 70px - 80px);
   }
 }
 

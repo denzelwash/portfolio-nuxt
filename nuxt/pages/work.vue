@@ -44,7 +44,7 @@
         <p>Июль 2018 — сентябрь 2019</p>
       </div>
     </div>
-    <div class="mb-10 flex items-center">
+    <div class="flex items-center">
       <div class="pl-0">
         <span class="text-lg sm:text-lg font-semibold mb-1">Freelance</span>
         <p>Июнь 2017 — июнь 2018</p>
