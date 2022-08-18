@@ -51,7 +51,12 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxtjs/proxy',
+    '@nuxtjs/yandex-metrika',
   ],
+
+  yandexMetrika: {
+    id: '89215922',
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
