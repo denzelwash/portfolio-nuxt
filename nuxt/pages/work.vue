@@ -1,6 +1,8 @@
 <template>
   <div class="works">
-    <h1 class="text-2xl sm:text-xl mb-10 sm:mb-8 page-title">Опыт работы</h1>
+    <h1 class="text-2xl sm:text-[22px] mb-12 sm:mb-10 page-title">
+      Опыт работы
+    </h1>
     <div class="mb-10 flex items-center">
       <a
         class="flex-shrink-0"

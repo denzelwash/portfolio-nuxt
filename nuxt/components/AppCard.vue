@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="portfolio-item w-1/5 xxl:w-1/4 lg:w-1/3 md:w-1/2 sm:w-full p-3 drop-shadow"
-  >
+  <div class="portfolio-item w-1/4 lg:w-1/3 md:w-1/2 sm:w-full p-3 drop-shadow">
     <div class="portfolio-item__wr aspect-h-1 aspect-w-1 relative">
       <img :src="require(`~/assets/img/works/${work.img}`)" />
       <div
@@ -9,7 +7,7 @@
         :class="{ 'work-rip': work.rip }"
       >
         <h4
-          class="text-xl xxl:text-lg font-medium mb-5 border-amber-400 border-b-2 inline-block"
+          class="text-lg font-medium mb-5 border-amber-400 border-b-2 inline-block"
         >
           {{ work.name }}
         </h4>
@@ -34,8 +32,8 @@
             />
             <span class="">Перейти</span>
           </a>
-          <span v-else class="xl:text-sm">Rip</span>
-          <span class="xl:text-sm">{{ work.year }}</span>
+          <span v-else class="">Rip</span>
+          <span class="">{{ work.year }}</span>
         </div>
       </div>
     </div>

@@ -7,16 +7,14 @@
             class="text-[22px] sm:text-xl leading-[26px] sm:leading-5 block"
             >Денис Оболевич</strong
           >
-          <span class="text-gray-600 sm:text-sm font-normal">
-            frontend developer
-          </span>
+          <span class="text-gray-600 font-normal"> frontend developer </span>
         </NuxtLink>
         <nav class="page-header__nav block">
           <ul class="flex justify-center lg:justify-between">
             <li v-for="item in menu" :key="item.name" class="mx-8 lg:mx-0">
               <NuxtLink
                 :to="item.url"
-                class="text-gray-600 hover:text-black duration-300 font-medium sm:text-sm"
+                class="text-gray-600 hover:text-black duration-300 font-medium"
                 :class="{ disabled: item.disabled }"
                 >{{ item.name }}</NuxtLink
               >

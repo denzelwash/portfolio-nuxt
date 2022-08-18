@@ -17,9 +17,7 @@
     }
   }
   &__link {
-    @screen xxl {
-      font-size: 14px;
-    }
+    // font-size: 16px;
   }
   ul {
     margin: 0;
@@ -28,10 +26,6 @@
     li {
       position: relative;
       padding-left: 12px;
-      font-size: 16px;
-      @screen xxl {
-        font-size: 14px;
-      }
       &::before {
         position: absolute;
         content: '';
