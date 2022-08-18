@@ -60,7 +60,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'http://denisobolevich.ru/api', // Used as fallback if no runtime config is provided
+    baseURL: 'https://denisobolevich.ru/api', // Used as fallback if no runtime config is provided
   },
 
   router: {
