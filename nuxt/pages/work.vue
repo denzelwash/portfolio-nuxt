@@ -14,13 +14,13 @@
       </a>
       <div class="pl-5">
         <a
-          class="text-lg sm:text-lg font-semibold mb-1"
+          class="text-lg font-semibold mb-1"
           href="https://alef.im/"
           target="_blank"
           rel="nofollow"
           >Alef Development</a
         >
-        <p>Ноябрь 2019 - по н. в.</p>
+        <p class="text-lg sm:text-base">Ноябрь 2019 - по н. в.</p>
       </div>
     </div>
     <div class="mb-10 flex items-center">
@@ -34,20 +34,20 @@
       </a>
       <div class="pl-5">
         <a
-          class="text-lg sm:text-lg font-semibold mb-1"
+          class="text-lg font-semibold mb-1"
           href="https://lhost.ru/"
           target="_blank"
           rel="nofollow"
         >
           ЭЛХОСТ
         </a>
-        <p>Июль 2018 — сентябрь 2019</p>
+        <p class="text-lg sm:text-base">Июль 2018 — сентябрь 2019</p>
       </div>
     </div>
     <div class="flex items-center">
       <div class="pl-0">
-        <span class="text-lg sm:text-lg font-semibold mb-1">Freelance</span>
-        <p>Июнь 2017 — июнь 2018</p>
+        <span class="text-lg font-semibold mb-1">Freelance</span>
+        <p class="text-lg sm:text-base">Июнь 2017 — июнь 2018</p>
       </div>
     </div>
   </div>
