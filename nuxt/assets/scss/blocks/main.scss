@@ -1,5 +1,5 @@
 .page-wrapper {
-  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
   display: flex;
   flex-direction: column;
   @apply bg-white;
@@ -48,7 +48,7 @@
 .page-main {
   min-height: calc(var(--vh, 1vh) * 100 - 80px - 56px);
   @apply bg-white;
-  padding: 6.25rem 0 3rem;
+  padding: 6.25rem 0 5rem;
   @screen sm {
     padding-bottom: 2.5rem;
     min-height: calc(var(--vh, 1vh) * 100 - 70px - 80px);
