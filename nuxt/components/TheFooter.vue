@@ -5,7 +5,8 @@
         class="flex flex-wrap sm:flex-col justify-between sm:justify-center items-center h-14 sm:h-20"
       >
         <span class="sm:text-center sm:w-full sm:mb-2"
-          >Copyright 2022 &#128400; denisobolevich.ru</span
+          >Copyright {{ new Date().getFullYear() }} &#128400;
+          denisobolevich.ru</span
         >
         <a href="mailto:denzelwash33@mail.ru" class="flex items-center group">
           <img

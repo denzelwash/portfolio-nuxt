@@ -4,6 +4,17 @@
       Опыт работы
     </h1>
     <div class="mb-10 flex items-center">
+      <div class="pl-0">
+        <a
+          class="text-lg font-semibold mb-1"
+          target="_blank"
+          rel="nofollow"
+          >Bility</a
+        >
+        <p class="text-lg sm:text-base">январь 2023 - по н. в.</p>
+      </div>
+    </div>
+    <div class="mb-10 flex items-center">
       <a
         class="flex-shrink-0"
         href="https://alef.im/"
@@ -20,7 +31,7 @@
           rel="nofollow"
           >Alef Development</a
         >
-        <p class="text-lg sm:text-base">Ноябрь 2019 - по н. в.</p>
+        <p class="text-lg sm:text-base">Ноябрь 2019 - январь 2023</p>
       </div>
     </div>
     <div class="mb-10 flex items-center">
