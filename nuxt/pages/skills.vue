@@ -7,13 +7,16 @@
     </div>
     <div class="mb-6">
       <h2 class="text-lg mb-1">Frontend</h2>
-      <p class="text-lg sm:text-base">HTML, CSS, SASS, Bootstrap, Tailwind, Gulp</p>
-      <p class="text-lg sm:text-base">JS, Jquery, Vue 2/3, Nuxt, Firebase</p>
+      <p class="text-lg sm:text-base">
+        HTML, CSS, SCSS, Bootstrap, Tailwind, Webpack, Gulp
+      </p>
+      <p class="text-lg sm:text-base">
+        JS, Jquery, Vue 2/3, Nuxt, React, Alpine
+      </p>
     </div>
     <div class="">
       <h2 class="text-lg mb-1">Backend</h2>
-      <p class="text-lg sm:text-base">PHP, SQL - базовые знания</p>
-      <p class="text-lg sm:text-base">node.js - в процессе изучения</p>
+      <p class="text-lg sm:text-base">PHP, SQL, Node.js - базовые знания</p>
     </div>
   </div>
 </template>
