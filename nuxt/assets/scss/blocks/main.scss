@@ -75,3 +75,43 @@
     z-index: -1;
   }
 }
+
+.notice {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -28px;
+  top: 8px;
+  &:hover {
+    p {
+      opacity: 1;
+    }
+  }
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(100% + 8px);
+    font-size: 14px;
+    line-height: normal;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    @screen sm {
+      font-size: 12px;
+    }
+  }
+  br {
+    display: none;
+    @screen sm {
+      display: block;
+    }
+  }
+}
