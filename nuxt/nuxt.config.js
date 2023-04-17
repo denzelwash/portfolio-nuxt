@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   // ssr: false,
-  target: 'static',
+  // target: 'static',
   head: {
     title: 'Денис Оболевич ★ Портфолио',
     htmlAttrs: {
