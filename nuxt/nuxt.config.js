@@ -23,7 +23,7 @@ export default {
         hid: 'keywords',
         name: 'keywords',
         content:
-          'HTML5, CSS3, PHP, JavaScript, Jquery, Vue, Nuxt, Git, LESS/SASS/SCSS, Flexbox, Grid, Adaptive.',
+          'Frontend developer, HTML5, CSS3, PHP, JavaScript, Jquery, Vue, Nuxt, React, Git, LESS/SASS/SCSS, Flexbox, Grid, Adaptive.',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],

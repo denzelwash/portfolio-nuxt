@@ -62,7 +62,23 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head: {
+    title: 'Денис Оболевич ★ Опыт работы',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Frontend разработчик, Денис Оболевич. Опыт работы.',
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'Frontend разработчик, Денис Оболевич. Опыт работы.',
+      },
+    ],
+  },
+}
 </script>
 
 <style></style>

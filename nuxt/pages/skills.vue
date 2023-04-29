@@ -22,7 +22,23 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head: {
+    title: 'Денис Оболевич ★ Навыки',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Frontend разработчик, Денис Оболевич. Навыки.',
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'Frontend разработчик, Денис Оболевич. Навыки.',
+      },
+    ],
+  },
+}
 </script>
 
 <style></style>
