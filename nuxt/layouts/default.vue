@@ -20,18 +20,9 @@ export default {
       loader: true,
     }
   },
-  head: {
-    bodyAttrs: {
-      class: 'overflow-hidden',
-    },
-  },
   mounted() {
     const vh = window.innerHeight * 0.01
     document.documentElement.style.setProperty('--vh', `${vh}px`)
-    window.addEventListener('load', () => {
-      document.querySelector('body').classList.remove('overflow-hidden')
-      this.loader = false
-    })
   },
 }
 </script>
