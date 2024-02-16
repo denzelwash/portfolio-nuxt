@@ -34,7 +34,7 @@
           />
         </svg>
         <p>
-          ≈1/3 работ, <br />
+          ≈1/5 работ, <br />
           только с фриланса
         </p>
       </div>
@@ -58,8 +58,8 @@
     <div v-if="works.length" ref="grid" class="flex flex-wrap gap-4 -mx-3">
       <AppCard
         v-for="work in works"
-        :work="work"
         :key="work.id"
+        :work="work"
         :data-groups="JSON.stringify(work.type)"
       />
     </div>
