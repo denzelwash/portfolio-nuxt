@@ -35,7 +35,7 @@
         </svg>
         <p>
           ≈1/5 работ, <br />
-          только с фриланса
+          фриланс + учебные проекты
         </p>
       </div>
     </h1>
@@ -100,9 +100,9 @@ export default {
           type: 'cms',
           active: false,
         },
-        vue: {
-          text: 'Vue',
-          type: 'vue',
+        spa: {
+          text: 'Spa',
+          type: 'spa',
           active: false,
         },
         trash: {

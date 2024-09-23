@@ -7,15 +7,11 @@
     </div>
     <div class="mb-6">
       <h2 class="text-lg mb-1">Frontend</h2>
+      <p class="text-lg sm:text-base mb-1">HTML, CSS, SCSS, БЭМ, Tailwind</p>
       <p class="text-lg sm:text-base mb-1">
-        HTML, CSS, SCSS, БЭМ, Tailwind
+        TypeScript, React, Vue, Nuxt, Alpine, jQuery
       </p>
-      <p class="text-lg sm:text-base mb-1">
-        JavaScript, Vue, Nuxt, Alpine, jQuery
-      </p>
-      <p class="text-lg sm:text-base">
-        Git, Vite, Webpack, Gulp
-      </p>
+      <p class="text-lg sm:text-base">Git, Vite, Webpack, Gulp</p>
     </div>
     <div class="">
       <h2 class="text-lg mb-1">Backend</h2>
